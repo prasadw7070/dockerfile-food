@@ -11,7 +11,7 @@ services:
   springboot-app:
     image: prasadwalujkar05/shopping:latest # Use the pre-built image
     ports:
-      - "8080:8080"
+      - "9090:8080"
     environment:
       SPRING_DATASOURCE_URL: jdbc:mysql://mysqldb:3306/timetracker
       SPRING_DATASOURCE_USERNAME: root
